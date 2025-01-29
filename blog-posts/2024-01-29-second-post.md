@@ -26,12 +26,3 @@ Bu bir **kalın** metindir ve *italik* metindir.
 **Kod bloğu örneği:**
 ```js
 console.log("Merhaba Dünya!");
-
-## 1. Normal Markdown Resmi
-![Normal Resim](https://example.com/image.jpg)
-
-## 2. HTML ile Küçük Resim
-<img src="https://example.com/image.jpg" width="200" height="150" />
-
-## 3. CSS ile Responsive Resim
-<img class="custom-image" src="https://example.com/image.jpg" />
