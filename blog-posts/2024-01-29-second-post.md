@@ -27,8 +27,11 @@ Bu bir **kalın** metindir ve *italik* metindir.
 ```js
 console.log("Merhaba Dünya!");
 
-<figure>
-    <img src="https://mdg.imgix.net/assets/images/albuquerque.jpg?auto=format&fit=clip&q=40&w=1080"
-         alt="Albuquerque, New Mexico">
-    <figcaption>A single track trail outside of Albuquerque, New Mexico.</figcaption>
-</figure>
+## 1. Normal Markdown Resmi
+![Normal Resim](https://example.com/image.jpg)
+
+## 2. HTML ile Küçük Resim
+<img src="https://example.com/image.jpg" width="200" height="150" />
+
+## 3. CSS ile Responsive Resim
+<img class="custom-image" src="https://example.com/image.jpg" />
